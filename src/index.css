@@ -25,7 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  padding: 10px;
 }
 
 h1 {
@@ -65,21 +64,23 @@ button:focus-visible {
   }
 }
 
-.nav-list {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-  padding-right: 10px;
-}
-
-.header {
+.navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-       /* Ensure full width */
+  gap: 10px;
+  background-color: #1c1c1c;
+  padding: 15px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 5px;
+.navbar span {
+  color: #18c9f5;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  padding: 15px;
+}
+.custom-list li::marker{
+  color: #18c9f5
 }
